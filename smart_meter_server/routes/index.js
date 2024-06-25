@@ -8,7 +8,9 @@ router.get('/', function (req, res, next) {
 
 router.post('/api', function (req, res, next) {
   let bodyRequest = req.body;
+  console.log(req.body);
   res.send(JSON.stringify(bodyRequest));
+
 })
 
 module.exports = router;
