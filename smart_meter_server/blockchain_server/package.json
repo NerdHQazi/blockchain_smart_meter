@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "5.4",
+    "fs-extra": "^11.2.0",
+    "solc": "^0.8.26"
+  }
+}
