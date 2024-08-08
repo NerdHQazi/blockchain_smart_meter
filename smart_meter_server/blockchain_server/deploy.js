@@ -19,6 +19,7 @@ async function main() {
         gasLimit: 5000000
     })
     
+    
     await eNairaContract.deployed()
     console.log("Enaira Token deployed at:", eNairaContract.address)
     
